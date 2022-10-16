@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cardiac Risk SMART Application</title>
+    <script src="https://cdn.jsdelivr.net/npm/fhirclient@2.0.6/build/fhir-client.js"></script>
+    <script>
+      FHIR.oauth2.authorize({
+        "client_id": "bp_charts",
+        "scope":  "patient/*.read offline_access"
+      });
+    </script>
+  </head>
+  <body>Loading...</body>
+</html>
