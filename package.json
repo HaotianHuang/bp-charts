@@ -1,0 +1,22 @@
+{
+  "name": "bp-charts",
+  "version": "1.0.0",
+  "description": "v1 [ ] Retreve blood pressure measurements for selected patient [ ] Display results in a log",
+  "main": "draw_visualisation.js",
+  "scripts": {
+    "serve": "./node_modules/http-server/bin/http-server -p 8000 -c-1 ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaotianHuang/bp-charts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaotianHuang/bp-charts/issues"
+  },
+  "homepage": "https://github.com/HaotianHuang/bp-charts#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
