@@ -8,9 +8,13 @@
         <script src='./load_data.js'></script>
 
         <script>
-            extractData();
+            extractData().then(function(p){
+                console.log(p);
+                alert("The patient's name is " + p.given + " " + p.family);
+            });
         </script>
     </head>
 
     hello world!
+
 </html>
