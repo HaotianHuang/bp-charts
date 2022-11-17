@@ -1,4 +1,3 @@
-Future steps
 v0
 [x] SMART on FHIR launch
 
