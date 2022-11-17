@@ -1,3 +1,7 @@
+Future steps
+v0
+[x] SMART on FHIR launch
+
 v1
 [ ] Retreve blood pressure measurements for selected patient
 [ ] Display results in a log
